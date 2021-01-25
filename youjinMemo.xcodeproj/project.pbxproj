@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		6A534D5125BD8D9A00BC5AC4 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A534D5025BD8D9A00BC5AC4 /* TableViewCell.swift */; };
 		6A534D5425BD9A8400BC5AC4 /* GrayBoxDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A534D5325BD9A8400BC5AC4 /* GrayBoxDesign.swift */; };
+		6A6D1AD425BE8A1B00E85E95 /* TextFieldBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6D1AD325BE8A1B00E85E95 /* TextFieldBackgroundView.swift */; };
+		6A6D1AD825BE8C1800E85E95 /* ModifyMemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6D1AD725BE8C1800E85E95 /* ModifyMemoViewController.swift */; };
 		6A8C28CD25BD5E3200871902 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A8C28CC25BD5E3200871902 /* AppDelegate.swift */; };
 		6A8C28CF25BD5E3200871902 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A8C28CE25BD5E3200871902 /* SceneDelegate.swift */; };
 		6A8C28D125BD5E3200871902 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A8C28D025BD5E3200871902 /* HomeViewController.swift */; };
@@ -22,6 +24,8 @@
 /* Begin PBXFileReference section */
 		6A534D5025BD8D9A00BC5AC4 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		6A534D5325BD9A8400BC5AC4 /* GrayBoxDesign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrayBoxDesign.swift; sourceTree = "<group>"; };
+		6A6D1AD325BE8A1B00E85E95 /* TextFieldBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldBackgroundView.swift; sourceTree = "<group>"; };
+		6A6D1AD725BE8C1800E85E95 /* ModifyMemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifyMemoViewController.swift; sourceTree = "<group>"; };
 		6A8C28C925BD5E3200871902 /* youjinMemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = youjinMemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A8C28CC25BD5E3200871902 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6A8C28CE25BD5E3200871902 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -45,6 +49,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6A6D1ADB25BE8C2200E85E95 /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				6A6D1AD325BE8A1B00E85E95 /* TextFieldBackgroundView.swift */,
+				6A534D5325BD9A8400BC5AC4 /* GrayBoxDesign.swift */,
+				6A8C28FC25BD72A200871902 /* WhiteBoxDesign.swift */,
+			);
+			path = Design;
+			sourceTree = "<group>";
+		};
 		6A8C28C025BD5E3200871902 = {
 			isa = PBXGroup;
 			children = (
@@ -68,7 +82,6 @@
 				6A8C28CC25BD5E3200871902 /* AppDelegate.swift */,
 				6A8C28CE25BD5E3200871902 /* SceneDelegate.swift */,
 				6A8C28D225BD5E3200871902 /* Main.storyboard */,
-				6A534D5025BD8D9A00BC5AC4 /* TableViewCell.swift */,
 				6A8C28D525BD5E3300871902 /* Assets.xcassets */,
 				6A8C28D725BD5E3300871902 /* LaunchScreen.storyboard */,
 				6A8C28DA25BD5E3300871902 /* Info.plist */,
@@ -79,10 +92,11 @@
 		6A8C290225BD781A00871902 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				6A6D1ADB25BE8C2200E85E95 /* Design */,
 				6A8C28D025BD5E3200871902 /* HomeViewController.swift */,
 				6A8C28FF25BD780100871902 /* MemoWritingViewController.swift */,
-				6A8C28FC25BD72A200871902 /* WhiteBoxDesign.swift */,
-				6A534D5325BD9A8400BC5AC4 /* GrayBoxDesign.swift */,
+				6A6D1AD725BE8C1800E85E95 /* ModifyMemoViewController.swift */,
+				6A534D5025BD8D9A00BC5AC4 /* TableViewCell.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -161,8 +175,10 @@
 				6A8C28FD25BD72A200871902 /* WhiteBoxDesign.swift in Sources */,
 				6A8C28D125BD5E3200871902 /* HomeViewController.swift in Sources */,
 				6A8C28CD25BD5E3200871902 /* AppDelegate.swift in Sources */,
+				6A6D1AD425BE8A1B00E85E95 /* TextFieldBackgroundView.swift in Sources */,
 				6A534D5125BD8D9A00BC5AC4 /* TableViewCell.swift in Sources */,
 				6A8C28CF25BD5E3200871902 /* SceneDelegate.swift in Sources */,
+				6A6D1AD825BE8C1800E85E95 /* ModifyMemoViewController.swift in Sources */,
 				6A8C290025BD780100871902 /* MemoWritingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
